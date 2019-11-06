@@ -28,6 +28,12 @@ export default props =>(
                  event={props.search}
             />
 
+            <IconButton 
+                 style='default'
+                 icone="close" 
+                 event={props.clear}
+            />
+
         </Grid>
     </div>
 
